@@ -1,0 +1,96 @@
+/*MEDIA QUERY*/
+/*CLASSES*/
+.backgroundColor {
+  background-color: white; }
+
+#cityStyle {
+  color: white;
+  font-family: Open Sans Extrabold, sans-serif;
+  font-size: 60px;
+  margin-left: 10px; }
+  @media (max-width: 599px) {
+    #cityStyle {
+      font-size: 30px; } }
+  @media (min-width: 600px) and (max-width: 899px) {
+    #cityStyle {
+      font-size: 40px; } }
+
+#dateStyle {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 35px;
+  margin-left: 10px; }
+  @media (max-width: 599px) {
+    #dateStyle {
+      font-size: 20px; } }
+
+.celsiusStyle {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  margin-right: 10px; }
+  @media (max-width: 599px) {
+    .celsiusStyle {
+      font-size: 17px; } }
+
+.highStyle {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: right; }
+  @media (max-width: 599px) {
+    .highStyle {
+      font-size: 20px; } }
+  @media (min-width: 600px) and (max-width: 899px) {
+    .highStyle {
+      font-size: 20px; } }
+
+.lowStyle {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: left; }
+  @media (max-width: 599px) {
+    .lowStyle {
+      font-size: 20px; } }
+  @media (min-width: 600px) and (max-width: 899px) {
+    .lowStyle {
+      font-size: 20px; } }
+
+.temperatureStyle {
+  color: white;
+  font-family: Open Sans Extrabold, sans-serif;
+  font-size: 70px; }
+  @media (max-width: 599px) {
+    .temperatureStyle {
+      font-size: 40px; } }
+  @media (min-width: 600px) and (max-width: 899px) {
+    .temperatureStyle {
+      font-size: 40px; } }
+
+.descriptionStyle {
+  color: white;
+  font-family: Open Sans Extrabold, sans-serif;
+  font-size: 60px; }
+  @media (max-width: 599px) {
+    .descriptionStyle {
+      font-size: 30px; } }
+  @media (min-width: 600px) and (max-width: 899px) {
+    .descriptionStyle {
+      font-size: 40px; } }
+
+#creditLink {
+  color: #003d4d; }
+
+.creditStyle {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */

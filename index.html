@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+
+    <!-- External Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="weather.js"></script>
+</head>
+
+<body class="backgroundColor">
+
+<div  class="container-fluid">
+    <div class="row">
+
+        <!--CITY & DATE-->
+
+        <div class="col-md-6 col-xs-8">
+            <h3 id="cityStyle"></h3>
+            <h3 id="dateStyle"></h3>
+
+        </div> <!--City, date-->
+
+
+        <!--CELSIUS/FAHRENHEIT-->
+
+        <div class="col-md-6 col-xs-4">
+
+            <h4 class="celsiusStyle" align="right">C° / F°</h4>
+
+        </div> <!--Celsius/Fahrenheit-->
+
+    </div> <!--row-->
+
+
+    <div class="row">
+
+        <!--HIGH TEMPERATURES-->
+
+        <div class="col-md-4 col-xs-3 highStyle">
+            <p>High:</p>
+            <p id="highTemp"></p>
+
+        </div> <!--high value-->
+
+
+
+        <div class="col-md-4 col-xs-6">
+
+            <!--IMAGE-->
+            <div><img id="image" class="img-responsive center-block" src="" alt="Image of the current weather"/>
+
+            </div> <!--image-->
+
+
+            <!--TEMPERATURE-->
+
+            <div>
+                <h1 class="temperatureStyle text-center"></h1>
+
+            </div> <!--temperature-->
+
+
+            <!-- EXPLANATION TEMPERATURE -->
+
+            <div>
+                <h1 class="descriptionStyle text-center"></h1>
+
+            </div> <!--explanation-->
+
+        </div> <!--image, temperature and explanation-->
+
+
+        <!--LOW TEMPERATURE-->
+
+        <div class="col-md-4 col-xs-3 lowStyle">
+            <p>Low:</p>
+            <p id="lowTemp"></p>
+
+        </div> <!--low value-->
+
+
+
+    </div><!--row-->
+
+    <!--CREDITS-->
+
+    <div>
+        <p class="creditStyle">Created by: <a id="creditLink" href="https://github.com/Smukat">Jesica Prades</a></p>
+
+    </div> <!--credits-->
+
+
+</div> <!--Container fluid-->
+
+
+</body>
+</html>
