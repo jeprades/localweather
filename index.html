@@ -5,10 +5,12 @@
     <title>Local Weather App</title>
 
     <!-- External Links -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!--<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>-->
     <script src="weather.js"></script>
 </head>
 
@@ -28,9 +30,11 @@
 
         <!--CELSIUS/FAHRENHEIT-->
 
-        <div class="col-md-6 col-xs-4">
+        <div class="col-md-6 col-xs-4" align="right">
+            <!--<input id="celsButton" type="checkbox" checked data-toggle="toggle" data-on="°C" data-off="°F" data-onstyle="primary"-->
+                   <!--data-offstyle="default">-->
 
-            <h4 class="celsiusStyle" align="right">C° / F°</h4>
+            <button id="celsButton" type="button" class="btn btn-default">°F</button>
 
         </div> <!--Celsius/Fahrenheit-->
 
